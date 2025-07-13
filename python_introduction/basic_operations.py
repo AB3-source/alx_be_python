@@ -1,6 +1,6 @@
 # Assign values to variables
-number1 = 3
-number2 = 7
+number1 = 10
+number2 = 5
 
 # Perform arithmetic operations
 sum_result = number1 + number2
