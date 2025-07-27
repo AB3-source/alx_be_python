@@ -1,10 +1,19 @@
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
 def perform_operation(num1, num2, operation):
     if operation == '+':
-        return num1 + num2
+        return add(num1, num2)
     elif operation == '-':
-        return num1 - num2
+        return subtract(num1, num2)
     elif operation == '*':
-        return num1 * num2
+        return multiply(num1, num2)
     elif operation == '/':
         if num2 == 0:
             raise ValueError("Cannot divide by zero.")
